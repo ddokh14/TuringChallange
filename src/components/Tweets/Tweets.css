@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.tweets-header{
+    background-color: #4AB3F4;
+    height: 10vh;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.tweet{
+    padding:20px;
+    font-size: 14px;
+}
+.tweet-link{
+    margin-left:auto;
+}
+.tweet:hover{
+    background-color: #f5f8fa;
+}
+.tweet-header{
+    display: inline-flex;
+    width: 100%;
+}
+.tweet-name{
+    word-break: break-all;
+    color: #14171a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.tweet-username, .tweet-time{
+    color:#657786;
+}
+.tweet-time:before{
+    content: "\00b7";
+    margin:0 5px;
+}

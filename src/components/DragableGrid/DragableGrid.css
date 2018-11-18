@@ -1,0 +1,13 @@
+.droppable{
+    flex-direction: row;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1100px) {
+    .droppable {
+        flex-direction: column;
+        min-height: auto;
+    }
+}
